@@ -5,9 +5,7 @@
 This part of software is a part for your Mac. It works only with local WLED Device via REST API. See [Amilight Arduino part](https://github.com/sergeich5/Ambilight-Arduino-part)
 
 # Instruction
-
-- [Setup your Arduino UNO before use.](https://github.com/sergeich5/Ambilight-Arduino-part)
-- Connect Arduino UNO to your Mac
+- Activate/plug in your WLED device, connected with the same (sub-)network as your Mac
 - Run ambilight via python 2.7
 
 # Check your python version
