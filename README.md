@@ -2,7 +2,7 @@
 
 # Ambilight for Mac OS
 
-This part of software is a part for your Mac. It works only with Arduino UNO. See [Amilight Arduino part](https://github.com/sergeich5/Ambilight-Arduino-part)
+This part of software is a part for your Mac. It works only with local WLED Device via REST API. See [Amilight Arduino part](https://github.com/sergeich5/Ambilight-Arduino-part)
 
 # Instruction
 
@@ -30,13 +30,3 @@ edit `config.py` to your needs
 ```sh
 python /path/to/ambilight.py
 ```
-
-# Troubleshooting connection
-
-In `Arduino.py` check this line
-
-```python
-            if 'tty.usbmodem' in port:
-```
-
-and change it regarding to your connected device. (For example Arduino on Mac is called `dev/tty.usbmodem143241101` so it will be detected, you don't have to change anything). Older models can be called `wchusbserial14`, then you have to change them accordingly.
